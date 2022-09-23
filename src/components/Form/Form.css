@@ -1,0 +1,46 @@
+input {
+  font-size: 0.9em;
+  font-family: 'Figtree', sans-serif;
+  height: 30px;
+  max-width: 500px;
+  background-color: rgb(182, 228, 255);
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+input:focus {
+  border: none;
+  box-shadow: 0px 0px 12px rgba(0, 92, 145, 0.74);
+}
+
+button {
+  font-size: 0.6em;
+  font-family: 'Figtree', sans-serif;
+  /* font-weight: bold; */
+  color: aliceblue;
+  cursor: pointer;
+  height: 39px;
+  width: 75px;
+  background-color: rgb(0, 92, 145);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 17px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.plus {
+  height: 20px;
+}
+
+button:hover {
+  background-color: rgb(29, 67, 90);
+  animation: alternate 10ms;
+  transition: all 400ms;
+  animation: ease-out;
+}
